@@ -33,5 +33,8 @@ This code can only be introduced by someone who is from an emergency team as Fir
 
 This project was built with this technologies.
 
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* Bootstrap
+* PHP
+* XAMPP
+* MySQL
 
