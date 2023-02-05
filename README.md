@@ -18,7 +18,7 @@
 ## About Priority
 
 <a>
-    <img src="./img/priority-home.png" alt="Preview" width="120" height="150">
+    <img src="./img/priority-home.png" alt="Preview" >
 </a>
 
 
