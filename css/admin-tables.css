@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(17,17,158);
+    background: linear-gradient(180deg, rgba(17,17,158,1) 34%, rgba(248,249,250,1) 100%);
+    background-attachment: fixed;
+}
+.user{
+    
+    height: 100%;
+    background-color: #e8eef7;
+}

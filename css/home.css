@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+
+}
+
+.blur {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    height: 100vh;
+    width: 100%;
+    padding: 10px auto;
+}
+
+.container{
+    border-radius: 50px;
+    padding: 30px;
+    margin-bottom: 20px;
+    max-height: 900px;
+}
+
+p{
+    font-size: 15px;
+}
