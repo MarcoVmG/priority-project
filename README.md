@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
@@ -19,3 +20,6 @@
     <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
   </p>
 </div>
+=======
+
+>>>>>>> b6e04e9693c9088e509f5ee5abaf3fcaf08cd630
