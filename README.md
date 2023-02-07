@@ -10,7 +10,6 @@
     <br />
     <br />
     <a href="https://priority-project.online/">View Demo</a>
-    ·
   </p>
 </div>
 
@@ -38,3 +37,10 @@ This project was built with this technologies.
 * XAMPP
 * MySQL
 
+## Usage
+
+For using the web page some users have been already created the normal user was created under the email "tester@test.com" with a "password 123". Inserting this data in the login form will let you see the user experience.<br/> Also the data of the user "tester" has been already created, on the profile tab the unique code of the user can be located. <br/>
+
+Other user for an emergency team has been created with the email "firedep.emergency@priority.com" with the password "emergency"; this information can be used to login as emergency team and with the user unique code as emergency user is possible to access the user information.<br/>
+
+Also you can created a new user that I will clear periodically from the database, but is not needed for know to insert a authentic email.
