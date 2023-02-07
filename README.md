@@ -44,3 +44,7 @@ For using the web page some users have been already created the normal user was 
 Other user for an emergency team has been created with the email "firedep.emergency@priority.com" with the password "emergency"; this information can be used to login as emergency team and with the user unique code as emergency user is possible to access the user information.<br/>
 
 Also you can created a new user that I will clear periodically from the database, but is not needed for know to insert a authentic email.
+
+## Contact
+
+You can reach me on Discord as : holou#7088
