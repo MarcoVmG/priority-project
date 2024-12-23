@@ -5,8 +5,8 @@ const fs = require('fs/promises');
 const path = require('path');
 
 const channelName = 'mychannel';
-const chaincodeName = 'ledger'; /*"basic"*/ // Update with your chaincode name
-const mspId = 'Org1MSP'; // Update with your MSP ID
+const chaincodeName = 'ledger'; 
+const mspId = 'Org1MSP'; 
 
 // Paths for certificates and keys
 // This path is taking under consideration that the project is running inside the fabric-samples folder
@@ -43,18 +43,14 @@ async function newGrpcConnection() {
     });
 }
 
-/**
- * Load the user's identity (certificate).
- */
+// Load the user's identity (certificate).
 async function newIdentity() {
     const certPath = await getFirstFile(certDirectoryPath);
     const credentials = await fs.readFile(certPath);
     return { mspId, credentials };
 }
 
-/**
- * Load the user's private key for signing transactions.
- */
+//Load the user's private key to sign transactions.
 async function newSigner() {
     const keyPath = await getFirstFile(keyDirectoryPath);
     const privateKeyPem = await fs.readFile(keyPath);
@@ -62,9 +58,8 @@ async function newSigner() {
     return signers.newPrivateKeySigner(privateKey);
 }
 
-/**
- * Helper function to get the first file in a directory.
- */
+//Helper function to get the first file in a directory.
+
 async function getFirstFile(dirPath) {
     const files = await fs.readdir(dirPath);
     if (files.length === 0) throw new Error(`No files found in ${dirPath}`);
@@ -95,7 +90,7 @@ async function submitTransaction(functionName, ...args) {
 
 
         let result;
-        // the if statement is used to determine if the function is a read(evaluateTransaction) 
+        //The if statement is used to determine if the function is a read(evaluateTransaction) 
         // or write operation(submitTransaction)
         if (
             [
